@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noon</title>
+    <link rel="stylesheet" href="output.css">
+    <script src="https://kit.fontawesome.com/9aded8b196.js" crossorigin="anonymous"></script>
+    <style>
+        .flex-w {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        .block {
+            font-size: 30px;
+            display: none;
+        }
+
+
+        /* queries */
+
+        @media(max-width: 768px) {
+            * {
+                /* align-items: center; */
+            }
+
+            .hide {
+                display: none
+            }
+
+            .flex-wr {
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+            }
+
+            .flex-wra {
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+            }
+
+            .logo {
+                margin-top: 30px;
+            }
+
+            .block {
+                font-size: 50px;
+                margin-left: 50px;
+                display: block;
+            }
+        }
+
+        @media(max-width:1024px) {
+            .towrap {
+                flex-wrap: wrap;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- First Navbar started -->
+    <div>
+        <nav class="flex bg-yellow-300 h-14">
+                <img class="mt-4 ml-5 h-6" src="assets/noon-logo-en.svg" alt="logo">
+                <img class="mt-4 ml-5 h-6" src="assets/UAE flag.svg" alt="UAE flag">
+                <h2 class="text-sm mt-2 ml-2 w-16">Deliver to <b>Dubai</b></h2>
+                <img class="h-5 mt-2 ml-2" src="assets/dropdownArrow.svg" alt="dropdownArrow">
+                <input class="w-3/5 rounded mt-2 mb-2 ml-5" type="search" placeholder ="  What are you looking for?">
+                <p class="text-lg ml-10 mt-3">العربية</p>
+                <p class="text-lg font-thin ml-3 mt-3">|</p>
+                <p class="font-semibold ml-3 mt-4">Sign in</p>
+                <img class="h-5 mt-5 ml-2" src="assets/user.svg" alt="user">
+                <p class="text-lg font-thin ml-3 mt-3">|</p>
+                <p class="font-semibold ml-3 mt-4">Cart</p>
+                <img class="h-5 mt-5 ml-2" src="assets/cart.svg" alt="Cart">    
+        </nav>
+    </div>
+    <!-- First navbar ended     -->
+</div>
+<div class="flex justify-evenly my-2 towrap hover:shadow focus:outline-none focus:ring focus:ring-violet-300 ...">
+    <li class="font-bold text-blue-600">ALL CATEGORIES</li>
+    <li><i class=" fa-caret-down fa-solid text-blue-600"></i></li>
+    <li class="font-bold">ELECTRONICS</li>
+    <li class="font-bold">MEN</li>
+    <li class="font-bold">TOYS</li>
+    <li class="font-bold">WOMEN</li>
+    <li class="font-bold">BEAUTY <i>&</i> FRAGRANCES</li>
+    <li class="font-bold">BABY</li>
+    <li class="font-bold">HOME</li>
+    <li class="font-bold">SPORTS</li>
+    <li class="font-bold">SELLONNOON</li>
+
+</div>
+<img class="ml-20" src="./assets/Main banner 1.jpg" alt="">
+
+<div class="flex">
+    <div class="ml-20"><img src="./assets/Sale.png" alt=""></div>
+    <div class=""><img src="./assets/male.png" alt=""></div>
+    <div class="mr-20"><img src="./assets/female.png" alt=""></div>
+</div>
+   
+<div class="flex pt-2 pb-6 ml-20 mr-20 flex-wra">
+    <div><img src="./assets/Splash event.png" alt=""></div>
+    <div><img src="./assets/Mobiles.png" alt=""></div>
+    <div><img src="./assets/M-Fashion.png" alt=""></div>
+    <div><img src="./assets/Gift card.png" alt=""></div>
+    <div><img src="./assets/toys.png" alt=""></div>
+    <div><img src="./assets/Baby.png" alt=""></div>
+    <div><img src="./assets/Beauty.png" alt=""></div>
+    <div><img src="./assets/W-Fashion.png" alt=""></div>
+    <div><img src="./assets/Home & Kitchen.png" alt=""></div>
+    <div><img src="./assets/Electronics.png" alt=""></div>
+    <div><img src="./assets/Deals.png" alt=""></div>
+    <div><img src="./assets/Appliances.png" alt=""></div>
+</div>
+
+<div class="flex justify-evenly  pt-5 flex-w gap-1">
+    <div class="border-0 p-4 bg-white px-6 rounded-md">
+        <p class="text-2xl font-semibold">More reason to shop</p><br>
+        <div class="flex">
+            <img src="./assets/Mahali.png" alt="" width="180px">
+            <img src="./assets/New arrivals.png" alt="" width="180px" class="mr-2">
+        </div>
+        <br>
+        <div class="flex">
+            <img src="./assets/Top-Rated.png" alt="" width="180px" class="mr-2">
+            <img src="./assets/bestsellers.png" alt="" width="180px">
+
+        </div>
+    </div>
+    <div class="border-0  bg-[#fff8aa] p-4 px-6 rounded-md">
+        <p class="text-2xl font-semibold">Mega deals</p><br>
+        <div class="flex">
+            <div class="border-1 bg-[#ececec] mr-2 rounded-md ">
+                <img src="./assets/Smart Watch.jpg" alt="" width="160px" class="h-32 border-0 rounded-md">
+                Smart Watch <br> <b>50 AED</b>
+            </div>
+            <div class="border-1 bg-[#ececec] rounded-md ">
+                <img src="./assets/Crockery.jpg" alt="" width="160px" class="h-32 border-0 rounded-md">
+                Crockery <br> <b>20 AED</b>
+            </div>
+        </div>
+
+        <br>
+                
+        <div class="flex">
+            <div class="border-1 bg-[#ececec] mr-2 rounded-md">
+                <img src="./assets/Machine.jpg" alt="" width="160px" class="h-32 border-0 rounded-md">
+                Machine <br> <b>15 AED</b>
+            </div>
+            <div class="border-1 bg-[#ececec] rounded-md ">
+                <img src="./assets/trimmer.jpg" alt="" width="160px" class="h-32 border-0 rounded-md">
+                Trimmer <br> <b>10 AED</b>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="border-0 p-4 bg-white px-6  rounded-md">
+        <p class="text-2xl font-semibold">In focus</p>
+        <img src="./assets/dining furniture.png" alt="" class="mt-4">
+        <img src="./assets/nivea.png" alt="" class="mt-4">
+
+    </div>
+</div>
+
+<p class="text-3xl mt-6 ml-36 mb-6 font-semibold flex-w">Recommended for you</p>
+<div class="flex justify-evenly flex-w">
+
+    <div class="border-4 bg-[#fafafa] mx-2">
+        <img src="./assets/Smart watch-2.avif" alt="" width="200">
+        <p class="text-center font-medium bg-[#fafafa]">
+            Smart Watch <br> <b>25 AED</b> 
+        </p>
+        <img src="./assets/express.svg" alt="" class="mt-8">
+    </div>
+
+    <div class="border-4 bg-[#fafafa] mx-2">
+        <img src="./assets/mobile-2.avif" alt="" width="200">
+        <p class="text-center font-medium bg-[#fafafa]">
+            iPhone 11 White 128GB 4G LTE<br> <b>1879 AED</b> 
+        </p>
+        <img src="./assets/express.svg" alt="" class="mt-8">
+    </div>
+
+    <div class="border-4 bg-[#fafafa] mx-2">
+        <img src="./assets/cosmetics.avif" alt="" width="200">
+        <p class="text-center font-medium bg-[#fafafa]">
+            Lip Gloss <br> <b>27 AED</b>
+        </p>
+        <img src="./assets/express.svg" alt="" class="mt-8">
+    </div>
+
+</div>
+
+<img class="mt-5 ml-20 mr-24" src="./assets/Main banner 3.jpg" alt="">
+<div class="bg-white pb-3 ml-20 mr-16 flex-w">
+    <p class="text-2xl mt-6 ml-20 mb-6 font-semibold">Be well-prepared for school</p>
+    <div class="flex justify-evenly gap-2 bg-white px-2 flex-wr">
+
+        <div><img src="./assets/Edu-toys.png" alt=""></div>
+        <div><img src="./assets/stationery.png" alt=""></div>
+        <div><img src="./assets/lunch boxes.png" alt=""></div>
+        <div><img src="./assets/Arts.png" alt=""></div>
+        <div><img src="./assets/Laptops.png" alt=""></div>
+        <div><img src="./assets/K-fashion.png" alt=""></div>
+        <div><img src="./assets/School offers.png" alt=""></div>
+        <div><img src="./assets/Tablets.png" alt=""></div>
+        <div><img src="./assets/Home study.png" alt=""></div>
+        <div><img src="./assets/backpacks.png" alt=""></div>
+    </div>
+
+</div>
+
+<div class="border-1 pt-2 pb-5 px-2 mr-16 ml-20 bg-[#ebebeb]">
+    <img src="./assets/main banner 4.png" alt="">
+</div>
+<div class="bg-white ml-20 py-3">
+    <img src="./assets/main banner 5.gif" alt="">
+</div>
+        
+<img src="./assets/banner4.jpg" alt="">
+<div class="border-1 p-4  flex-w">
+    <p class=" text-gray-400  font-extrabold text-1xl">Superior online shopping in the UAE</p>
+    <br><br>
+    <p class="text-sm font-medium font-sans  text-gray-400">As the leading destination for <ins>online shopping
+            in the UAE</ins>, noon has
+        everything you need under one
+        roof. Whether you’re shopping for the latest <span class="text-blue-500">electronic products</span>,
+        fashion, homeware, <span class="text-blue-500">products for
+            kids and babies</span>,<ins> books</ins> and stationery, sports and health essentials, <span
+            class="text-blue-500">beauty products</span>, or
+        groceries,
+        we have millions of products in the noon <ins>UAE store.</ins> As a <ins>customer-centric</ins>
+        online store, we make it
+        easier to <ins>buy online</ins> with flexible payment plans that help you save, along with regular
+        sales across
+        our extensive product range, gift cards, wishlists, our <span class="text-blue-500">exclusive
+            Mashreq VIP</span> card, our easy-to-use
+        shopping app, and so much more.
+        <br><br>
+    </p>
+    <p class="text-gray-400 font-extrabold text-1xl">Shop the best products & brands at noon UAE</p>
+    <br><br>
+    <p class="text-sm font-medium font-sans text-gray-400">You’ll find a massive variety of products from
+        <ins>top brands</ins> at <ins>noon
+            UAE</ins>. Our
+        electronics department has the <span class="text-blue-500">latest mobile phones</span>, along with
+        tablets, mobile accessories,
+        <span class="text-blue-500">laptops</span>, <ins>wearable technology</ins> such as smartwatches and
+        other <ins>wearable devices</ins>,
+        headphones (<ins>in-ear</ins>,
+        <ins>wireless</ins> and <ins>noise-cancelling</ins>), audiovisual gear, a selection of cameras,
+        televisions, video game
+        consoles such as PC and Xbox controllers, and video games. We have products from Samsung, Xiaomi,
+        Sony, HP, Dell, Huawei, Lenovo, Apple, and many other leading tech brands.
+        <br><br>
+    </p>
+    <p class="text-gray-400 font-extrabold text-1xl">Hassle-free UAE online shopping</p>
+    <br><br>
+    <p class="text-sm font-medium font-sans  text-gray-400">When you buy online at noon, you will always have
+        peace of mind knowing that you are
+        getting the best level of service. We take the hassle out of online shopping in Abu Dhabi and Dubai,
+        with a number of features and flexible payment plans that make shopping simpler, faster, and better.
+        Our Buy Now, Pay Later plans include Tabby, with orders split over 4 payments, and Tamara, with
+        orders split over 3 payments. Both plans are interest-free. We accept credit cards and debit cards
+        from Emirates NBD, FAB bank, Mashreq bank, ADCIB, and ADIB, and cash on delivery. For even more
+        convenience, we have a No-Cost EMI. We have a 15-day return policy that takes even more stress out
+        of shopping.</p>
+</div>
+
+<div class="border-y-2 border-inherit px-3 py-5 flex-w">
+    <div>
+        <p class="text-2xl font-bold text-gray-700">We're Always Here To Help</p>
+
+        <p class="text-xs mt-2">Reach out to us through any of these support channels</p>
+    </div>
+
+    <div class="w-2/4"></div>
+
+    <div class="my-3 p-2 rounded-full bg-white mr-2">
+        <img src="./assets/img 48.png" alt="" width="20px">
+    </div>
+    <div class="mr-7">
+        <p class="text-sm">HELP CENTER</p>
+        <p class="text-lg font-semibold">help.noon.com</p>
+
+    </div>
+    <div class="my-3 p-2 rounded-full bg-white mr-2">
+        <img src="./assets/img 49.png" alt="" width="20px">
+    </div>
+    <div class="">
+        <p class="text-sm">EMAIL SUPPORT</p>
+        <p class="text-lg font-semibold">care@noon.com</p>
+
+    </div>
+</div>
+<footer class="bg-white">
+    <div class=" ml[50] flex justify-around flex-w ">
+        <div class="ml-5 mt-5">
+            <h2><b class="text-xl">ELECTRONICS</b></h2>
+            <p class="text-lg mt-2">Mobiles</p>
+            <p class="text-lg mt-2">Tablet</p>
+            <p class="text-lg mt-2">Laptops</p>
+            <p class="text-lg mt-2">Home Apliances</p>
+            <p class="text-lg mt-2">Camera, Photo </p>
+            <p class="text-lg mt-2">Televisions</p>
+            <p class="text-lg mt-2">Headphones</p>
+            <p class="text-lg mt-2">Video Games</p>
+        </div>
+        <div class="mt-5">
+            <h2><b class="text-xl">FASHIONS</b></h2>
+            <p class="text-lg mt-2">Tecno</p>
+            <p class="text-lg mt-2">Nintendo</p>
+            <p class="text-lg mt-2">Toshiba</p>
+            <p class="text-lg mt-2">Orient</p>
+            <p class="text-lg mt-2">Haier </p>
+            <p class="text-lg mt-2">Sony</p>
+            <p class="text-lg mt-2">Samsung</p>
+            <p class="text-lg mt-2">Apple</p>
+        </div>
+        <div class="mt-5">
+            <h2><b class="text-xl">HOME & KITCHENS</b></h2>
+            <p class="text-lg mt-2">Mobiles</p>
+            <p class="text-lg mt-2">Tablet</p>
+            <p class="text-lg mt-2">Laptops</p>
+            <p class="text-lg mt-2">Home Apliances</p>
+            <p class="text-lg mt-2">Camera, Photo</p>
+            <p class="text-lg mt-2">Televisions</p>
+            <p class="text-lg mt-2">Headphones</p>
+            <p class="text-lg mt-2">Video Games</p>
+        </div>
+        <div class="mt-5">
+            <h2><b class="text-xl">Home</b></h2>
+            <p class="text-lg mt-2">Toddler</p>
+            <p class="text-lg mt-2">Diaper</p>
+            <p class="text-lg mt-2">Cycles</p>
+            <p class="text-lg mt-2">Feeding</p>
+            <p class="text-lg mt-2">Outdoor play </p>
+            <p class="text-lg mt-2">Board games</p>
+            <p class="text-lg mt-2">Tricycle</p>
+            <p class="text-lg mt-2">Video Games</p>
+        </div>
+        <div class="mt-5">
+            <h2><b class="text-xl">HOME APPLIANCES</b></h2>
+            <p class="text-lg mt-2">Mobiles</p>
+            <p class="text-lg mt-2">Tablet</p>
+            <p class="text-lg mt-2">Laptops</p>
+            <p class="text-lg mt-2">Home Apliances</p>
+            <p class="text-lg mt-2">Camera, Photo</p>
+            <p class="text-lg mt-2">Televisions</p>
+            <p class="text-lg mt-2">Headphones</p>
+            <p class="text-lg mt-2">Video Games</p>
+        </div>
+        <div class="mt-5">
+            <h2><b class="text-xl">BABY & TOYS</b></h2>
+            <p class="text-lg mt-2">Toddler</p>
+            <p class="text-lg mt-2">Diaper</p>
+            <p class="text-lg mt-2">Cycles</p>
+            <p class="text-lg mt-2">Feeding</p>
+            <p class="text-lg mt-2">Outdoor play </p>
+            <p class="text-lg mt-2">Board games</p>
+            <p class="text-lg mt-2">Tricycle</p>
+            <p class="text-lg mt-2">Video Games</p>
+        </div>
+        <div class="mt-5 mr-5">
+            <h2><b class="text-xl">TOP BRANDS</b></h2>
+            <p class="text-lg ml-2">Tecno</p>
+            <p class="text-lg ml-2">Nintendo</p>
+            <p class="text-lg ml-2">Toshiba</p>
+            <p class="text-lg ml-2">Orient</p>
+            <p class="text-lg ml-2">Haier </p>
+            <p class="text-lg ml-2">Sony</p>
+            <p class="text-lg ml-2">Samsung</p>
+            <p class="text-lg ml-2">Apple</p>
+        </div>
+    </div>
+
+    <div class="flex justify-around">
+        <div class="">
+            <div class=" text-center mt-32 ">
+                <p class="font-bold text-xl text-gray-700">SHOP ON THE GO</p>
+            </div><br>
+            <div class="flex">
+                <img src="./assets/img 50.svg" alt="" width="120px">
+                <img src="./assets/img 51.svg" alt="" width="120px">
+            </div>
+        </div>
+
+        <div>
+            <div class="text-center mt-32">
+                <p class="font-bold text-xl text-gray-700">CONNECT WITH US</p>
+            </div>
+            <br>
+            <div class="flex gap-3 flex-wrap">
+                <div><i class="fa-brands fa-facebook-f fa-xl rounded-full p-5 bg-[#f5e96d]"
+                        style="color: black;"></i></div>
+                <div><i class="fa-brands fa-twitter fa-xl rounded-full p-5  bg-[#f5e96d]"
+                        style="color: black;"></i></div>
+                <div><i class="fa-brands fa-instagram fa-xl rounded-full p-5   bg-[#f5e96d]"
+                        style="color: black;"></i></div>
+                <div><i class="fa-brands fa-linkedin-in fa-xl rounded-full p-5  bg-[#f5e96d]"
+                        style="color: black;"></i></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-slate-100">
+        <div class="flex justify-between mt-14">
+            <div class="mt-5">
+                <p class="ml-3 text-lg mb-4 text-gray-600">@ 2023 noon. All Right Reserved</p>
+            </div><br>
+            <div class="flex gap-8 mt-5 flex-wrap ">
+                <img src="./assets/img 52.svg" width="70rem" alt="">
+                <img src="./assets/img 53.svg" width="70rem" alt="">
+                <img src="./assets/img 54.svg" width="70rem" alt="">
+                <img src="./assets/img 55.svg" width="70rem" alt="">
+                <img src="./assets/img 56.svg" width="70rem" alt="">
+                <img src="./assets/img 57.svg" width="70rem" alt="">
+            </div>
+        </div>
+        <div class="flex gap-8 h-24 flex-wrap">
+            <p class="ml-3 text-gray-700 font-normal ">Careers </p>
+            <p class="ml-3 text-gray-700 font-normal ">Warranty Policy</p>
+            <p class="ml-3 text-gray-700 font-normal ">Sell with Us</p>
+            <p class="ml-3 text-gray-700 font-normal ">Terms of Use</p>
+            <p class="ml-3 text-gray-700 font-normal ">Terms of Sale</p>
+            <p class="ml-3 text-gray-700 font-normal ">Privacy Policy</p>
+            <p class="ml-3 text-gray-700 font-normal ">Consumer Rights</p>
+        </div>
+    </div>
+</footer>
+
+</div>
+</body>
+
+</html>
